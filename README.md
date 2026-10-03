@@ -412,3 +412,17 @@ def demonstrate_enhanced_system():
         
         print(f"📱 {prn_signal['device_id']}:")
         print(f"   Type: {prn_signal['
+
+## Research prototype: Universal TwinOS + EEG/Hormone Wormhole
+
+[`research/universal_twinos_eeg_wormhole.py`](research/universal_twinos_eeg_wormhole.py)
+links a personal digital twin, EEG/physiology context, historical event
+matching and an OS/network-neutral agent protocol, with a provider-neutral
+adapter for any coding model or AI agent and a guarded terminal agent.
+
+**Prototype only. Not clinically validated and not for handling real
+genetic, EEG or health data.** EEG is treated as probabilistic context, not a
+readout of thoughts. The server listens on localhost by default, external
+model providers are disabled unless enabled, and network terminal tasks need
+an explicit flag and token. Maintained alongside
+[DNA-Blockchain/Helloworld](https://github.com/DNA-Blockchain/Helloworld).
